@@ -17,7 +17,7 @@ pipeline {
 					sh 'echo "Running on Linux"'
 					sh 'pip install pandas' // Installer les dépendances
 					sh 'python3 --version'
-					sh 'python3 hello.py'					
+					sh 'python3 app.py'					
                 }
             }
         }
