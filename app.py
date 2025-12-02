@@ -17,7 +17,7 @@ def analyze_sales_data(file_path):
     print(f"Vente moyenne: {average_sales}")
     print(f"Ventes maximales: {max_sales}")
     print(f"Ventes minimales: {min_sales}")
-
+#Essai 1 avec pipeline CI/cd
 if __name__ == "__main__":
     file_path = 'sales_data.csv'  # Chemin vers le fichier CSV
     analyze_sales_data(file_path)
